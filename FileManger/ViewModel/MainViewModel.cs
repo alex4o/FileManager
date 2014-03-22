@@ -13,7 +13,7 @@ namespace FileManger.ViewModel
 		public MainViewModel()
 		{
 			files = new ObservableCollection<string>();
-			foreach(var file in Directory.GetFiles("C://")){
+			foreach(var file in Directory.GetFiles("D:\\Users\\root\\Desktop\\")){
 				files.Add(file);
 			}
 			
